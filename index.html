@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
+    <title>❌ Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>Tic Tac Toe</h1>
+            <button onclick='gameplay.resetGame()' id="button">Restart</button>
+        </div>
+    </div>
+    <div class="page-container">
+        <h2 class="player-turn">Player X's Turn</h2>
+        <div class="game-container">
+            <div data-type="" id='0' class="game-grids"></div>
+            <div data-type="" id='1' class="game-grids"></div>
+            <div data-type="" id='2' class="game-grids"></div>
+            <div data-type="" id='3' class="game-grids"></div>
+            <div data-type="" id='4' class="game-grids"></div>
+            <div data-type="" id='5' class="game-grids"></div>
+            <div data-type="" id='6' class="game-grids"></div>
+            <div data-type="" id='7' class="game-grids"></div>
+            <div data-type="" id='8' class="game-grids"></div>
+        </div>
+    </div>
+    <div class="modal hide">
+        <img onclick='hideModal()' class='close' src="/close.svg" alt="close">
+    </div>
+</body>
+
+</html>
